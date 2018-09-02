@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rahmahnajiyahimtihan.a15menitmenghafalquran">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".Pilihanisi"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Niat"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Mushaf"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Qori"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Fajr"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Minim"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Sholat"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Murojaah"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Luangkan"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Jika"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Makan"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Doa"
+            android:screenOrientation="landscape" />
+        <activity android:name=".SplashScreen"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+    </application>
+
+</manifest>
